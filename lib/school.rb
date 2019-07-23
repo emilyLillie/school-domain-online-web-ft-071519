@@ -19,6 +19,7 @@ class School
   
   def sort 
     alphabet_students = []
-    rosted.each {|grade, student|
+    rosted.each {|grade, student| 
+      alphabet_students[grade] 
   
 end
