@@ -21,6 +21,7 @@ class School
     alphabet_students = []
     rosted.each {|grade, student| 
       alphabet_students[grade] = student.sort }
+      alphabet_students
     end
   
 end
