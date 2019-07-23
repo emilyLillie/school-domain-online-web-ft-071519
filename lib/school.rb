@@ -1,7 +1,8 @@
 # code here!
 
 class School
-  acc
+  attr_reader :name 
+  
   def initialize(name)
     @name = name
   end
