@@ -17,6 +17,7 @@ class School
     roster[student_grade]
   end 
   
-  
+  def sort 
+    alphabet_students = []
   
 end
